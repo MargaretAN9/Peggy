@@ -1,14 +1,21 @@
+# displays video and records picture from  USB camera
+#tested with Public Lab USB camera on Raspberry PI (stretch)  June 2018
+# use 's' key to stop video and record image 
 # code originally from https://gist.github.com/snim2/255151
+# uses pygame library
+# potential application - focus microscope with video and then store  image by pressing 's'
 
 
 import pygame
 import pygame.camera
 from pygame.locals import *
 
+# set parameters
+
 DEVICE = '/dev/video0'
 SIZE = (640, 480)
 
-FILENAME = 'capture.png'
+FILENAME = '/home/pi/Desktop/USBtestimage1.jpg'
 
 
 
