@@ -1,3 +1,18 @@
+
+""""""
+=crops a portion of image
+
+-press keyboard to show crop
+
+""
+
+ 
+
+
+
+
+
+
 import cv2
 from matplotlib import pyplot as plt
 
@@ -20,7 +35,7 @@ if __name__ == '__main__' :
      
     # Select ROI
     r = cv2.selectROI(im)
-    print  r[1]
+    
 
     
     # Crop image
@@ -32,4 +47,7 @@ if __name__ == '__main__' :
  
     # Display cropped image
     cv2.imshow("Image", imCrop)
+   
+    print  r
+   
     cv2.waitKey(0)
