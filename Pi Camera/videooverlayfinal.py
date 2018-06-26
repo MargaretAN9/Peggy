@@ -1,6 +1,6 @@
 '''
 -calibration overlay program
--loads file, request user inout and thrn creates transparent grid video overlay 
+-loads file, request user input and then creates transparent grid video overlay 
 -user input is two mouse clicks and integer input (number of ruler divisions)
 -requires picamera, opencv, matplotlib
 -press q to exit from video
