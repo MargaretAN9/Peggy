@@ -1,4 +1,4 @@
-## Computer Science courses with video lectures
+## Computer Vision courses with video lectures
 
 
 -------------------------
