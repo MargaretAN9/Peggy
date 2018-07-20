@@ -16,10 +16,10 @@ FILEIN = "/home/pi/Desktop/testimage1.jpg"
 
 img = mpimg.imread(FILEIN)
                  
-
-B = img[:,:,0]
+#   MATPLOTLIB IS RGB
+B = img[:,:,2]
 G = img[:,:,1]
-R = img[:,:,2]
+R = img[:,:,0]
 
 f, axarr = plt.subplots(2, 2)
 axarr[0,0].imshow(img, cmap = cm.Greys_r)
