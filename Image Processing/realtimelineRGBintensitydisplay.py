@@ -1,4 +1,5 @@
-# 
+# code display video image and matplotlib graph. a trackbar is used to select a  vertical video line  
+#The plot displays the  image (line)  RGB components and is updated at video frame rates
 # code was modified from  https://nrsyed.com/2018/02/08/real-time-video-histograms-with-opencv-and-python/ tutorial 
 # apapted for picamera, line intensity analysis and trackbar  
 # press q to quit 
