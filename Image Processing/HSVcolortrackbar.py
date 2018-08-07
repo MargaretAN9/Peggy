@@ -1,5 +1,6 @@
 # sets up trackbars to ananlyze image in HSV colorspace
 #shows trackbar mask, input and result
+# see https://www.learnopencv.com/color-spaces-in-opencv-cpp-python/ for more info on colorspace 
 #esc to quit
 #red typical H: 156-179, S:117-255 , V: 98-255
 #green typical H: 40-85, S:255-255 , V: 19-255
