@@ -7,7 +7,7 @@
 #store file on desktop, HDMI, AVI or MPEG4 are possible recordong options -set video writer and file name
 # to not record "#out.write(combined)"
 #note you are creating big data files
-#program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at 
+#program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 #ESC to quit
 
 
