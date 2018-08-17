@@ -30,7 +30,7 @@ Program requirements are listed on the import section of the program but here is
 * Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
 
 
-## References
+## References/Acknowledgments
 * picamera documentation -  Must read for anybody working with Raspberry Pi camera:
 https://picamera.readthedocs.io/en/release-1.13/
 
@@ -120,13 +120,13 @@ Trackbar Picamera manual control program. Sets up 2 windows -trackbar window and
 Requires opencv2 and picamera, ESC to quit.
 
 #### -videooverlayfinal.py
-Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video
+Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video.
 
  
 ### USB Camera: Programs that take videos or pictures with a USB Camera.
 
 #### -USBTakesPic+Annotates.py 
-Uses the connected USB Camera to take a photo and annotate said image with a resolution scale vis matplotlib.  Requires fswebcam which can be downloaded by using sudo apt-get install fswebcam
+Uses the connected USB Camera to take a photo and annotate said image with a resolution scale vis matplotlib.  Requires fswebcam which can be downloaded by using sudo apt-get install fswebcam.
 
 #### -USBVidWithImageCapture.py
-Displays video and records picture from USB camera #tested with Public Lab USB camera on Raspberry PI (stretch) June 2018. Use 's' key to stop video and record image.  Code originally from https://gist.github.com/snim2/255151.  Uses pygame library.  Potential application - focus microscope with video and then store image by pressing 's'
+Displays video and records picture from USB camera #tested with Public Lab USB camera on Raspberry PI (stretch) June 2018. Use 's' key to stop video and record image.  Code originally from https://gist.github.com/snim2/255151.  Uses pygame library.  Potential application - focus microscope with video and then store image by pressing 's'.
