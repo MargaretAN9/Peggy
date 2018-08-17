@@ -78,6 +78,19 @@ HDR collection program.  Record 4 pictures and exposure data for HDR processing.
 Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tested with a Raspberry Pi NoIR camera with blue filter. Trackbars select gain settings.  Program opens at zero gain so need to move red/lude ,gain  .5/.5 to see first images.  NDVI equations from https://github.com/robintw/RPiNDVI/blob/master/ndvi.py
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
+#### CVquaddisplay -colorandsobel .py
+
+
+
+
+
+####
+
+
+
+
+####
+
 
 ## Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
 
