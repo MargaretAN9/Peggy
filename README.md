@@ -19,16 +19,16 @@ Programs are divided into the three categories (Picamera, USB and Image  Process
 # Prerequisites 
 Program requirements are listed on the import section of the program but here is a complete list of download instructions or install resources:
 
- -Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
- -OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
- -Matplotlib:   sudo apt-get build-dep python-matplotlib
+* Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
+* OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+* -Matplotlib:   sudo apt-get build-dep python-matplotlib
  -Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
  -SciPy :   sudo apt-get install python3-scipy
  -fswebcam: USB camera driver   -sudo apt-get install fswebcam
  -Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
 
 
-###References
+# References
 -picamera documentation -  Must read for anybody working with Raspberry Pi camera:
 https://picamera.readthedocs.io/en/release-1.13/
 
@@ -42,12 +42,12 @@ https://picamera.readthedocs.io/en/release-1.13/
 -Katherine Scott (SimpleCV)  and Ladyada(ADAfruit) – Their videos gave me confidence I could do this stuff. 
 
 
-###Software programs: 
+# Software programs: 
 
 
-Image Processing: Programs that process digital images in various ways
+## Image Processing: Programs that process digital images in various ways
 
-3dRGBmeshgrid.py
+### 3dRGBmeshgrid.py
 Creates 3d RGB plot/meshgrid.  Shows both RGB quad and meshgrids.
 AddsAxisTolmage.py
 Displaying a Matplotlib Scale Image.  Imports a file and displays labels (x,y, title} and resolution tick marks.  Requires matplotlib.
@@ -72,7 +72,7 @@ Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tes
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
 
-Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
+## Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
 PiCameraEffectsShow.py
 The program displays different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison. Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A.
 PiCameraEffectsVid.py
@@ -89,7 +89,8 @@ picameravidwithimagecapturecv.py
 Shows video and captures image using picmaera and opencv.  From https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/.  Press q to quit
 videooverlayfinal.py
 Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video
-USB Camera: Programs that take videos or pictures with a USB Camera.
+
+## USB Camera: Programs that take videos or pictures with a USB Camera.
 USBTakesPic+Annotates.py 
 Uses the connected USB Camera to take a photo and annotate said image with a resolution scale vis matplotlib.  Requires fswebcam which can be downloaded by using sudo apt-get install fswebcam
 USBVidWithImageCapture.py
