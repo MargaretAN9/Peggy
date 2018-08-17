@@ -2,7 +2,7 @@
 # Project Title:  Computer Vision enhancements for Raspberry Pi based Public Lab Science Projects
 
 ## Program Description:
-The project developed  a series of modular python programs that support different Public Lab (https://publiclab.org/) imaging and spectrum measurement toolkits. The programs enable near real time OpenCV computer vision (CV) measurements of images or spectra. The CV measurements can be used to improve instrument performance (feedback that controls lighting amplitude or camera array exposure times) or assist calibration.  
+The project developed  a series of modular python programs that support different Public Lab (https://publiclab.org/) imaging and spectrum measurement toolkits. The programs enable near real time OpenCV computer vision (CV) measurements of images or spectra. The CV measurements can be used to improve instrument performance (feedback that controls lighting amplitude or camera array exposure times) or assist calibration.  Program was supported by the google Summer of Code 2018.
 
 * Complete Google Summer of Code proposal available at :  https://publiclab.org/notes/MaggPi/03-20-2018/gsoc-proposal-computer-vision-enhancements-for-raspberry-pi-based-public-lab-science-projects
 
