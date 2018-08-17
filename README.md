@@ -4,11 +4,11 @@
 ## Program Description:
 The project developed  a series of modular python programs that support different Public Lab (https://publiclab.org/) imaging and spectrum measurement toolkits. The programs enable near real time OpenCV computer vision (CV) measurements of images or spectra. The CV measurements can be used to improve instrument performance (feedback that controls lighting amplitude or camera array exposure times) or assist calibration.  
 
-Complete Google Summer of Code proposal available at :  https://publiclab.org/notes/MaggPi/03-20-2018/gsoc-proposal-computer-vision-enhancements-for-raspberry-pi-based-public-lab-science-projects
+* Complete Google Summer of Code proposal available at :  https://publiclab.org/notes/MaggPi/03-20-2018/gsoc-proposal-computer-vision-enhancements-for-raspberry-pi-based-public-lab-science-projects
 
-Code demonstrations  can be seen at https://publiclab.org/profile/MaggPi.
+* Code demonstrations  can be seen at https://publiclab.org/profile/MaggPi.
 
-Video demos at : https://www.youtube.com/channel/UCbyyYOlNo87CXJ39h3wqXZA
+* Video demos at : https://www.youtube.com/channel/UCbyyYOlNo87CXJ39h3wqXZA
 
 ## Development Environment: 
 All programs were tested with a Raspberry Pi 3B+ (stretch), OpenCV2, Raspberry Pi NoIR camera (or webcam) and Python 3.5 
@@ -104,7 +104,7 @@ Calibration overlay program.  Loads file, request user input and then creates tr
 
 ### USB Camera: Programs that take videos or pictures with a USB Camera.
 
-####USBTakesPic+Annotates.py 
+#### USBTakesPic+Annotates.py 
 Uses the connected USB Camera to take a photo and annotate said image with a resolution scale vis matplotlib.  Requires fswebcam which can be downloaded by using sudo apt-get install fswebcam
 
 #### USBVidWithImageCapture.py
