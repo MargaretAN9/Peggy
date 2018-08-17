@@ -21,25 +21,25 @@ Program requirements are listed on the import section of the program but here is
 
 * Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
 * OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
-* -Matplotlib:   sudo apt-get build-dep python-matplotlib
- -Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
- -SciPy :   sudo apt-get install python3-scipy
- -fswebcam: USB camera driver   -sudo apt-get install fswebcam
- -Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
+* Matplotlib:   sudo apt-get build-dep python-matplotlib
+* Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
+* SciPy :   sudo apt-get install python3-scipy
+* fswebcam: USB camera driver   -sudo apt-get install fswebcam
+* Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
 
 
 # References
--picamera documentation -  Must read for anybody working with Raspberry Pi camera:
+* picamera documentation -  Must read for anybody working with Raspberry Pi camera:
 https://picamera.readthedocs.io/en/release-1.13/
 
--OpenCV tutorial sites-  Great online tutorials, most with step by step instructions.
--Adrian Rosebrock -  https://www.pyimagesearch.com/author/adrian/
--Satya Mallick -  https://www.learnopencv.com/about/
--Sergio Canu - https://pysource.com/
+* OpenCV tutorial sites-  Great online tutorials, most with step by step instructions.
+* Adrian Rosebrock -  https://www.pyimagesearch.com/author/adrian/
+* Satya Mallick -  https://www.learnopencv.com/about/
+* Sergio Canu - https://pysource.com/
 
--Dr. Robert Wilson’s git hub page https://github.com/robintw/RPiNDVI has super  python coding about a host of environmental applications.  
+* Dr. Robert Wilson’s git hub page https://github.com/robintw/RPiNDVI has super  python coding about a host of environmental applications.  
 
--Katherine Scott (SimpleCV)  and Ladyada(ADAfruit) – Their videos gave me confidence I could do this stuff. 
+* Katherine Scott (SimpleCV)  and Ladyada(ADAfruit) – Their videos gave me confidence I could do this stuff. 
 
 
 # Software programs: 
@@ -49,22 +49,28 @@ https://picamera.readthedocs.io/en/release-1.13/
 
 ### 3dRGBmeshgrid.py
 Creates 3d RGB plot/meshgrid.  Shows both RGB quad and meshgrids.
-AddsAxisTolmage.py
+
+### AddsAxisTolmage.py
 Displaying a Matplotlib Scale Image.  Imports a file and displays labels (x,y, title} and resolution tick marks.  Requires matplotlib.
-HSV.py
+
+### HSV.py
 Imports file and shows HSV quad picture.  Uses matplotilib,numpy,opencv.
 
-HSVcolortrachbar.py
+### HSVcolortrachbar.py
 Sets up trackbars to analyze image in HSV colorspace.  Shows trackbar mask, input and result.  Esc to quit #red typical H: 156-179, S:117-255, V: 98-255 #green typical H: 40-85, S:255-255, V: 19-255.  Blue typical H: 100-127, S:107-255, V: 152-255.  Yellow typical H: 15-35, S:77-255, V: 165-255
-RGBquad.py
-Imports file and shows RGB quad picture.  Uses matplotilib w/numpy.
-YUVQuad.py
-Imports file and shows YUV quad picture.  Uses matplotilib,numpy,opencv.
-histogram3.py
-Plot histograms #calculates grayscale/color and 2d histograms.  See https://lmcaraig.com/image-histograms-histograms-equalization-and-histograms-comparison/.
-roi and crops image.py
-Crops a portion of image.  Mouse click to draw rectangle.  Press keyboard to show crop.
-takeHDRpictures.py
+### RGBquad.py
+Imports file and shows RGB quad picture.  Uses matplotilib w/numpy. 
+
+### YUVQuad.py
+Imports file and shows YUV quad picture.  Uses matplotilib,numpy,opencv. 
+
+### histogram3.py
+Plot histograms #calculates grayscale/color and 2d histograms.  See https://lmcaraig.com/image-histograms-histograms-equalization-and-histograms-comparison/. 
+
+### roi and crops image.py
+Crops a portion of image.  Mouse click to draw rectangle.  Press keyboard to show crop.  
+
+### takeHDRpictures.py
 HDR collection program.  Record 4 pictures and exposure data for HDR processing.  Shows all pictures to check image quality include auto exp + four exposures.
 
 NDVI Red/Gain optimization program
