@@ -73,17 +73,17 @@ Crops a portion of image.  Mouse click to draw rectangle.  Press keyboard to sho
 ### takeHDRpictures.py
 HDR collection program.  Record 4 pictures and exposure data for HDR processing.  Shows all pictures to check image quality include auto exp + four exposures.
 
-NDVI Red/Gain optimization program
+#### NDVI Red/Gain optimization program
 Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tested with a Raspberry Pi NoIR camera with blue filter. Trackbars select gain settings.  Program opens at zero gain so need to move red/lude ,gain  .5/.5 to see first images.  NDVI equations from https://github.com/robintw/RPiNDVI/blob/master/ndvi.py
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
 
 ## Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
-PiCameraEffectsShow.py
+####PiCameraEffectsShow.py
 The program displays different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison. Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A.
-PiCameraEffectsVid.py
+#### PiCameraEffectsVid.py
 The program records a video demonstrating different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison.  Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Video is recorded in h264 format, use omxplayer FILENAME.h264 to see video on raspberry pi (use terminal).  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A
-exposuremosaic.py
+#### exposuremosaic.py
 Creates exposure matrix Raspberry camera settings: Manual Raspberry Pi cameras settings are described in https://picamera.readthedocs.io/en/release-1.13/fov.html. Some at the major exposure control settings for the V2 camera are listed below: 
 --shutter_speed - controls exposure times, max length is 10 sec. Related to frame rate.
 --ISO - ISO controls sensitivity of the camera (by adjusting the analog_gain and digital_gain). Values are between 0 (auto) and 1600. The actual value used when iso is explicitly set will be one of the following values (whichever is closest): 100, 200, 320, 400, 500, 640, 800. 
@@ -93,7 +93,7 @@ picameravidwithimagecapture.py
 test camera program -tested with Raspberrty Pi camera v2.1.  Program provides xx sec alignment preview and records jpg image.  Application: align spectrometer or focus microscope.  Annotates with filename and datetime.
 picameravidwithimagecapturecv.py
 Shows video and captures image using picmaera and opencv.  From https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/.  Press q to quit
-videooverlayfinal.py
+#### videooverlayfinal.py
 Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video
 
 ## USB Camera: Programs that take videos or pictures with a USB Camera.
