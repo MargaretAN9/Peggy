@@ -38,11 +38,9 @@ https://picamera.readthedocs.io/en/release-1.13/
 * Adrian Rosebrock -  https://www.pyimagesearch.com/author/adrian/
 * Satya Mallick -  https://www.learnopencv.com/about/
 * Sergio Canu - https://pysource.com/
-
 * Dr. Robert Wilson’s git hub page https://github.com/robintw/RPiNDVI has super  python coding about a host of environmental applications.  
-
 * Katherine Scott (SimpleCV)  and Ladyada(ADAfruit) – Their videos gave me confidence I could do this stuff. 
-
+* Public Lab mentors: @amirberAgain, @warren, @icarito @cfastie @liz
 
 ## Software programs: 
 
