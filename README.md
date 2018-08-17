@@ -2,10 +2,14 @@
 # Project Title:  Computer Vision enhancements for Raspberry Pi based Public Lab Science Projects
 
 ###Program Description:
-The project developed  a series of modular python programs that support different Public Lab (https://publiclab.org/) imaging and spectrum measurement toolkits. The programs enable near real time OpenCV computer vision (CV) measurements of images or spectra. The CV measurements can be used to improve instrument performance (feedback that controls lighting amplitude or camera array exposure times) or assist calibration.   Complete Google Summer of Code proposal available at :  https://publiclab.org/notes/MaggPi/03-20-2018/gsoc-proposal-computer-vision-enhancements-for-raspberry-pi-based-public-lab-science-projects
+The project developed  a series of modular python programs that support different Public Lab (https://publiclab.org/) imaging and spectrum measurement toolkits. The programs enable near real time OpenCV computer vision (CV) measurements of images or spectra. The CV measurements can be used to improve instrument performance (feedback that controls lighting amplitude or camera array exposure times) or assist calibration.  
+
+Complete Google Summer of Code proposal available at :  https://publiclab.org/notes/MaggPi/03-20-2018/gsoc-proposal-computer-vision-enhancements-for-raspberry-pi-based-public-lab-science-projects
 
 Code demonstrations  can be seen at https://publiclab.org/profile/MaggPi.
+
 Video demos at : https://www.youtube.com/channel/UCbyyYOlNo87CXJ39h3wqXZA
+
 ###Develpopment Environment: All programs were tested with a Raspberry Pi 3B+ (stretch), OpenCV2, Raspberry Pi NoIR camera (or webcam) and Python 3.5 
 
 ####Program organization:
@@ -28,9 +32,9 @@ Also don’t forget  to update before downloading: sudo apt-get update and sudo 
 https://picamera.readthedocs.io/en/release-1.13/
 
 -OpenCV tutorial sites-  Great online tutorials, most with step by step instructions.
- -Adrian Rosebrock -  https://www.pyimagesearch.com/author/adrian/
- -Satya Mallick -  https://www.learnopencv.com/about/
- -Sergio Canu - https://pysource.com/
+-Adrian Rosebrock -  https://www.pyimagesearch.com/author/adrian/
+-Satya Mallick -  https://www.learnopencv.com/about/
+-Sergio Canu - https://pysource.com/
 
 -Dr. Robert Wilson’s git hub page https://github.com/robintw/RPiNDVI has super  python coding about a host of environmental applications.  
 
@@ -41,12 +45,14 @@ https://picamera.readthedocs.io/en/release-1.13/
 
 
 Image Processing: Programs that process digital images in various ways
+
 3dRGBmeshgrid.py
 Creates 3d RGB plot/meshgrid.  Shows both RGB quad and meshgrids.
 AddsAxisTolmage.py
 Displaying a Matplotlib Scale Image.  Imports a file and displays labels (x,y, title} and resolution tick marks.  Requires matplotlib.
 HSV.py
 Imports file and shows HSV quad picture.  Uses matplotilib,numpy,opencv.
+
 HSVcolortrachbar.py
 Sets up trackbars to analyze image in HSV colorspace.  Shows trackbar mask, input and result.  Esc to quit #red typical H: 156-179, S:117-255, V: 98-255 #green typical H: 40-85, S:255-255, V: 19-255.  Blue typical H: 100-127, S:107-255, V: 152-255.  Yellow typical H: 15-35, S:77-255, V: 165-255
 RGBquad.py
