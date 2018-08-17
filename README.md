@@ -101,14 +101,14 @@ The program displays different processing modes from a Raspberry Pi camera #prog
 The program records a video demonstrating different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison.  Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Video is recorded in h264 format, use omxplayer FILENAME.h264 to see video on raspberry pi (use terminal).  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A
 
 #### exposuremosaic.py
-Creates exposure matrix Raspberry camera settings: Manual Raspberry Pi cameras settings are described in https://picamera.readthedocs.io/en/release-1.13/fov.html. Some at the major exposure control settings for the V2 camera are listed below: 
+Creates exposure matrix of two different Raspberry Pi  camera settings: Manual Raspberry Pi cameras settings are described in https://picamera.readthedocs.io/en/release-1.13/fov.html. Some at the major exposure control settings for the V2 camera are listed below: 
 --shutter_speed - controls exposure times, max length is 10 sec. Related to frame rate.
 --ISO - ISO controls sensitivity of the camera (by adjusting the analog_gain and digital_gain). Values are between 0 (auto) and 1600. The actual value used when iso is explicitly set will be one of the following values (whichever is closest): 100, 200, 320, 400, 500, 640, 800. 
 --AWB - Auto white balance controls (red, blue) gains and ‘balances’ the color.
 Matrix set for exposure time vs ISO.
 
 #### picameravidwithimagecapture.py
-test camera program -tested with Raspberrty Pi camera v2.1.  Program provides xx sec alignment preview and records jpg image.  Application: align spectrometer or focus microscope.  Annotates with filename and datetime.
+Program provides xx sec alignment preview and records jpg image.  Application: align spectrometer or focus microscope.  Annotates with filename and datetime.
 picameravidwithimagecapturecv.py
 Shows video and captures image using picmaera and opencv.  From https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/.  Press q to quit
 
