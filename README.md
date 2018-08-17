@@ -79,18 +79,18 @@ Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tes
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
 #### CVquaddisplay -colorandsobel .py
+Quad video for real time image processing. Sets up 3 windows -trackbar windows and video quad display showing camera settings, color filter and sobel edge detection.  Trackbar also sets up blob detection see Satya Mallick https://www.learnopencv.com/tag/blob-detector/
+Records video by setting file name, videowriter format and enable 'out.write(combined)' and 'write video' commands
 
+#### picmaeramancontrol.py
+Trackbar Picamera manual control program. Sets up 2 windows -trackbar window and video quad display showing cmera settings and R, B and RGB components.  Records video by setting file name, videowriter formet and enabling 'out.write(combined)'.
+Requires opencv2 and picamera, ESC to quit.
 
-
-
-
-####
-
-
-
-
-####
-
+#### realtimelineRGBintensitydisplay.py
+Displays video image and matplotlib graph. a trackbar is used to select a  vertical video line.  
+The plot displays the  image (line)  RGB components and is updated at video frame rates
+Code was modified from  https://nrsyed.com/2018/02/08/real-time-video-histograms-with-opencv-and-python/ tutorial 
+Apapted for picamera, line intensity analysis and trackbar.  Press q to quit.  
 
 ## Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
 
