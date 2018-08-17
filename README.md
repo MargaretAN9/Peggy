@@ -44,25 +44,17 @@ https://picamera.readthedocs.io/en/release-1.13/
 
 ## Software programs: 
 
+#### -3dRGBmeshgrid.py
+Creates 3d RGB plot/meshgrid.  Shows both RGB quad and meshgrids.
 
 ### Image Processing: Programs that process digital images in various ways
-
 
 #### -AddsAxisTolmage.py
 Displaying a Matplotlib Scale Image.  Imports a file and displays labels (x,y, title} and resolution tick marks.  Requires matplotlib.
 
-
 #### -CVquaddisplay -colorandsobel .py
 Quad video for real time image processing. Sets up 3 windows -trackbar windows and video quad display showing camera settings, color filter and sobel edge detection.  Trackbar also sets up blob detection see Satya Mallick https://www.learnopencv.com/tag/blob-detector/
 Records video by setting file name, videowriter format and enable 'out.write(combined)' and 'write video' commands
-
-#### -exposuremosaic.py
-Creates exposure matrix of two different Raspberry Pi  camera settings: Manual Raspberry Pi cameras settings are described in https://picamera.readthedocs.io/en/release-1.13/fov.html. Some at the major exposure control settings for the V2 camera are listed below: 
---shutter_speed - controls exposure times, max length is 10 sec. Related to frame rate.
---ISO - ISO controls sensitivity of the camera (by adjusting the analog_gain and digital_gain). Values are between 0 (auto) and 1600. The actual value used when iso is explicitly set will be one of the following values (whichever is closest): 100, 200, 320, 400, 500, 640, 800. 
---AWB - Auto white balance controls (red, blue) gains and ‘balances’ the color.
-Matrix set for exposure time vs ISO.
-
 
 #### -HDRimaging.py
 Processes HDR pictures.  Use takeHDRpictures.py and capture pictures for input. Plots crf function.  Creates HDR and tonemapped images:Robertson,Debevek,fusion_mertens.  See:https://docs.opencv.org/3.1.0/d2/df0/tutorial_py_hdr.html for more info
@@ -80,16 +72,11 @@ Sets up trackbars to analyze image in HSV colorspace.  Shows trackbar mask, inpu
 Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tested with a Raspberry Pi NoIR camera with blue filter. Trackbars select gain settings.  Program opens at zero gain so need to move red/blue gain to .5/.5 to see first images.  NDVI equations from https://github.com/robintw/RPiNDVI/blob/master/ndvi.py
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
-#### -picmaeramancontrol.py
-Trackbar Picamera manual control program. Sets up 2 windows -trackbar window and video quad display showing cmera settings and R, B and RGB components.  Records video by setting file name, videowriter formet and enabling 'out.write(combined)'.
-Requires opencv2 and picamera, ESC to quit.
-
 #### -realtimelineRGBintensitydisplay.py
 Displays video image and matplotlib graph. a trackbar is used to select a  vertical video line.  
 The plot displays the  image (line)  RGB components and is updated at video frame rates
 Code was modified from  https://nrsyed.com/2018/02/08/real-time-video-histograms-with-opencv-and-python/ tutorial 
-Apapted for picamera, line intensity analysis and trackbar.  Press q to quit.
-
+and papted for picamera with  line intensity analysis and trackbar.  Press q to quit.
 
 #### -RGBquad.py
 Imports file and shows RGB quad picture.  Uses matplotilib w/numpy.
@@ -98,20 +85,23 @@ Imports file and shows RGB quad picture.  Uses matplotilib w/numpy.
 Crops a portion of image.  Mouse click to draw rectangle.  Press keyboard to show crop.  
 
 #### -takeHDRpictures.py
-HDR collection program.  Record 4 pictures and exposure data for HDR processing.  Shows all pictures to check image quality include auto exp + four exposures.
-
-
-#### -videooverlayfinal.py
-Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video
+HDR collection program.  Record 4 pictures and exposure data for HDR processing.  Shows all pictures to check image quality include auto exp + four exposures.  (Use with HDRimaging.py)
 
 #### -YUVQuad.py
 Imports file and shows YUV quad picture.  Uses matplotilib,numpy,opencv.
 
-#### -3dRGBmeshgrid.py
-Creates 3d RGB plot/meshgrid.  Shows both RGB quad and meshgrids.
+
 
 
 ## Pi Camera: Programs that take videos or pictures with a Raspberry Pi Camera.
+
+
+#### -exposuremosaic.py
+Creates exposure matrix of two different Raspberry Pi  camera settings: Manual Raspberry Pi cameras settings are described in https://picamera.readthedocs.io/en/release-1.13/fov.html. Some at the major exposure control settings for the V2 camera are listed below: 
+--shutter_speed - controls exposure times, max length is 10 sec. Related to frame rate.
+--ISO - ISO controls sensitivity of the camera (by adjusting the analog_gain and digital_gain). Values are between 0 (auto) and 1600. The actual value used when iso is explicitly set will be one of the following values (whichever is closest): 100, 200, 320, 400, 500, 640, 800. 
+--AWB - Auto white balance controls (red, blue) gains and ‘balances’ the color.
+Matrix set for exposure time vs ISO.
 
 #### -PiCameraEffectsShow.py
 The program displays different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison. Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A.
@@ -119,12 +109,18 @@ The program displays different processing modes from a Raspberry Pi camera #prog
 #### -PiCameraEffectsVid.py
 The program records a video demonstrating different processing modes from a Raspberry Pi camera #program tested on raspberry pi (strectch) with v2 camera (June 2018).  Image is displayed at default settings between modes for comparison.  Over 40 different settings are displayed.  See https://projects.raspberrypi.org/en/projects/getting-started-with-picamera for more info on picamera.  Video is recorded in h264 format, use omxplayer FILENAME.h264 to see video on raspberry pi (use terminal).  Application: program is useful to see preset processing options available with picamera.  See example demo videos at: https://www.youtube.com/watch?v=MCXqdq1Xw9A
 
-
 #### -picameravidwithimagecapture.py
 Program provides xx sec alignment preview and records jpg image.  Application: align spectrometer or focus microscope.  Annotates with filename and datetime.
 
-#### -picameravidwithimagecapturecv.py
+#### -picameravidwithimagecaptureopencv.py
 Shows video and captures image using picmaera and opencv.  From https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/.  Press q to quit
+
+#### -picmaeramancontrol.py
+Trackbar Picamera manual control program. Sets up 2 windows -trackbar window and video quad display showing cmera settings and R, B and RGB components.  Records video by setting file name, videowriter formet and enabling 'out.write(combined)'.
+Requires opencv2 and picamera, ESC to quit.
+
+#### -videooverlayfinal.py
+Calibration overlay program.  Loads file, request user input and then creates transparent grid video overlay.  User input is two mouse clicks and integer input (number of ruler divisions).  Requires picamera, opencv, matplotlib.  Press q to exit from video
 
  
 ### USB Camera: Programs that take videos or pictures with a USB Camera.
