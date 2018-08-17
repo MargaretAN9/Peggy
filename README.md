@@ -10,7 +10,8 @@ Code demonstrations  can be seen at https://publiclab.org/profile/MaggPi.
 
 Video demos at : https://www.youtube.com/channel/UCbyyYOlNo87CXJ39h3wqXZA
 
-## Develpopment Environment: All programs were tested with a Raspberry Pi 3B+ (stretch), OpenCV2, Raspberry Pi NoIR camera (or webcam) and Python 3.5 
+## Develpopment Environment: 
+All programs were tested with a Raspberry Pi 3B+ (stretch), OpenCV2, Raspberry Pi NoIR camera (or webcam) and Python 3.5 
 
 ## Program organization:
 Programs are divided into the three categories (Picamera, USB and Image  Processing) that are based on different ways the image is acquired.  Multiple  software routines have been posted to accommodate different levels of experience. For example, a beginner will probably just want to capture an image, a slightly more experienced user will want to capture and annotate the image, and an experienced programmer will want to capture, annotate and process the image. (with opencv). All code is available at: https://github.com/MargaretAN9/Peggy  Code application can be seen at https://publiclab.org/profile/MaggPi.  
@@ -18,8 +19,8 @@ Programs are divided into the three categories (Picamera, USB and Image  Process
 # Prerequisites 
 Program requirements are listed on the import section of the program but here is a complete list of download instructions or install resources:
 
-##-Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
-## -OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+ -Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
+ -OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
  -Matplotlib:   sudo apt-get build-dep python-matplotlib
  -Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
  -SciPy :   sudo apt-get install python3-scipy
