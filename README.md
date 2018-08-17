@@ -18,13 +18,13 @@ Programs are divided into the three categories (Picamera, USB and Image  Process
 ### Prerequisites 
 Program requirements are listed on the import section of the program but here is a complete list of download instructions or install resources:
 
-Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
-OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
-Matplotlib:   sudo apt-get build-dep python-matplotlib
-Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
-SciPy :   sudo apt-get install python3-scipy
-fswebcam: USB camera driver   -sudo apt-get install fswebcam
-Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
+ -Picamera -  https://picamera.readthedocs.io/en/release-1.13/install.html
+ -OpenCV2 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+ -Matplotlib:   sudo apt-get build-dep python-matplotlib
+ -Omxplayer (to display h264 videos of raspberry pi): sudo apt-get install omxplayer
+ -SciPy :   sudo apt-get install python3-scipy
+ -fswebcam: USB camera driver   -sudo apt-get install fswebcam
+ -Also don’t forget  to update before downloading: sudo apt-get update and sudo apt-get dist-upgrade
 
 
 ###References
