@@ -75,7 +75,7 @@ Crops a portion of image.  Mouse click to draw rectangle.  Press keyboard to sho
 HDR collection program.  Record 4 pictures and exposure data for HDR processing.  Shows all pictures to check image quality include auto exp + four exposures.
 
 #### -NDVI Red/Gain optimization program
-Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tested with a Raspberry Pi NoIR camera with blue filter. Trackbars select gain settings.  Program opens at zero gain so need to move red/lude ,gain  .5/.5 to see first images.  NDVI equations from https://github.com/robintw/RPiNDVI/blob/master/ndvi.py
+Program displays (and records) an RGB//B/NDVI(fastie)/NDVI(Jet) quad video.  Tested with a Raspberry Pi NoIR camera with blue filter. Trackbars select gain settings.  Program opens at zero gain so need to move red/blue gain to .5/.5 to see first images.  NDVI equations from https://github.com/robintw/RPiNDVI/blob/master/ndvi.py
 Program requires loading colorbars (jetcolorbar.jpg and NDVIcolormap.jpg) posted at https://github.com/MargaretAN9/Peggy
 
 #### -CVquaddisplay -colorandsobel .py
@@ -109,7 +109,8 @@ Matrix set for exposure time vs ISO.
 
 #### -picameravidwithimagecapture.py
 Program provides xx sec alignment preview and records jpg image.  Application: align spectrometer or focus microscope.  Annotates with filename and datetime.
-picameravidwithimagecapturecv.py
+
+#### -picameravidwithimagecapturecv.py
 Shows video and captures image using picmaera and opencv.  From https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/.  Press q to quit
 
 #### -videooverlayfinal.py
