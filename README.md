@@ -41,6 +41,7 @@ https://picamera.readthedocs.io/en/release-1.13/
 * Dr. Robert Wilson’s git hub page https://github.com/robintw/RPiNDVI has super  python coding about a host of environmental applications.  
 * Katherine Scott (SimpleCV)  and Ladyada(ADAfruit) – Their videos gave me confidence I could do this stuff. 
 * Public Lab mentors: @amirberAgain, @warren, @icarito @cfastie @liz
+* Alex Norton (keep it simple) 
 
 ## Software programs: 
 
